@@ -1,0 +1,22 @@
+.drones-image {
+  width: 100%;
+  height: auto;
+  padding: 10px; /* Add padding */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+
+@media (min-width: 768px) {
+  .drones-text {
+    padding: 10px;
+  }
+
+  .row .col-md-6 {
+    padding: 10px; /* Add padding to the column */
+  }
+}
+
+.drones-container {
+  margin-bottom: 100px;
+}

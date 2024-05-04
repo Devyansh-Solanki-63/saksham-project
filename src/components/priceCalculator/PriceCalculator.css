@@ -1,0 +1,146 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+button:disabled{
+  cursor: not-allowed !important;
+}
+
+
+
+
+.drone-row, .cctv-row{
+  margin: 70px 0px;
+}
+.cctv-row .img-fluid{
+  width: 90%;
+}
+
+
+.home-content h1{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 80px;
+  line-height: 70px;
+}
+.home-content h4{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.home-content p{
+  line-height: 18px;
+}
+.home-content .btn:hover{
+  background-color: black;
+  border: 1px solid black;
+}
+
+
+.drone-row img, .cctv-row img {
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.2));
+  -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.2));
+  animation: homeImages 5s infinite;
+}
+@keyframes homeImages {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  75% {
+    transform: translateY(20px);
+  }
+}
+
+
+
+
+.cctv-container{
+    padding-top: 160px;
+}
+.cctv-container .img-container img{
+  max-width: 90%;
+  max-height: 100%;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.2));
+  -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.2));
+  position: relative;
+  animation: cctv_img 5s ease 1s infinite;
+}
+@keyframes cctv_img {
+  0% {bottom: 0px;}
+  50% {bottom: 30px;}
+  100% {bottom: 0px;}
+}
+.cctv-container form input, 
+.cctv-container form input:focus{
+  display: inline;
+  width: 100px;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 0;
+}
+.cctv-container form select{
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.cctv-container form select:focus-visible{
+  outline: none !important;
+}
+.cctv-container input#email{
+  box-shadow: none;
+  border: 1px solid gray;
+}
+.cctv-container .breakdown-container p{
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+.land-calculator-container{
+  padding-top: 130px;
+}
+.land-calculator-container .img-container img {
+  max-width: 90%;
+  max-height: 100%;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.2));
+  -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.2));
+  position: relative;
+  animation: drone_img 5s ease 1s infinite;
+}
+@keyframes drone_img {
+  0% {bottom: 0px;}
+  50% {bottom: 30px;}
+  100% {bottom: 0px;}
+}
+.land-calculator-container form input, 
+.land-calculator-container form input:focus{
+  display: inline;
+  width: 100px;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 0;
+}
+.land-calculator-container form select{
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.land-calculator-container form select:focus-visible{
+  outline: none !important;
+}

@@ -1,0 +1,40 @@
+/* DroneDetails.css */
+
+.drone-details-page .card {
+  /* Add styles for the card-like component */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.drone-details-page .card:hover {
+  /* Add styles for the card when hovered */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.specification {
+  /* Add styles for each specification */
+  padding: 10px 0;
+}
+
+.drone-details-page .card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.drone-details-page .card:hover {
+  background-color: #e3e2e8;
+}
+
+/* Add styles for the images */
+.drone-details-page .img-fluid {
+  max-width: 100%; /* Limit maximum width */
+  max-height: 300px; /* Limit maximum height */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}

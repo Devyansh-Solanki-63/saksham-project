@@ -1,0 +1,23 @@
+/* Header.css */
+.header-section {
+  position: fixed;
+  width: 100%;
+  z-index: 1000; /* Ensure the header is above other content */
+}
+.header-section img.header-logo{
+  width: 170px;
+  height: auto;
+}
+.header-section .navbar-link{
+  padding: 10px 12px !important;
+}
+  
+.navbar {
+  transition: background-color 0.3s ease; /* Optional: Add transition effect for background color change */
+}
+
+
+.navbar-link{
+  cursor: pointer;
+}
+  

@@ -1,0 +1,62 @@
+/* Gem.css */
+
+.gem-page {
+    /* Your styles for the gem page */
+  }
+  
+  .gem-content {
+    /* Your styles for the content area */
+  }
+  
+  .text-center {
+    text-align: center; /* Center-align text */
+  }
+  
+  .gem-cards {
+    /* Your styles for the gem cards */
+    display: flex;
+    justify-content: space-around; /* Arrange cards evenly */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  }
+  
+  .gem-card {
+    /* Your styles for individual gem cards */
+    width: calc(33.3333% - 20px); /* Adjust card width as needed */
+    margin-bottom: 20px; /* Add margin between cards */
+    padding: 20px; /* Add padding to the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  }
+  
+  .gem-card img {
+    /* Your styles for gem card images */
+    width: 50%; /* Make images fill the card */
+    max-height: 100px; /* Set maximum height for the images */
+    object-fit: contain; /* Resize image while maintaining aspect ratio */
+  }
+  
+  .gem-footer {
+    /* Your styles for the gem footer */
+    text-align: center; /* Center-align footer content */
+    padding: 20px; /* Add padding to the footer */
+  }
+  
+  .gem-footer-heading {
+    /* Your styles for the footer heading */
+  }
+  
+  .gem-footer-content {
+    /* Your styles for the footer content */
+  }
+  
+  .gem-footer-paragraph {
+    /* Your styles for the footer paragraph */
+  }
+  
+  .gem-footer-image {
+    /* Your styles for the footer image */
+    max-width: 100%; /* Make image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Add margin to top of image */
+    padding-bottom: 20px; /* Add padding to bottom of image */
+  }
+  

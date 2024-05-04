@@ -1,0 +1,44 @@
+/* ContactUs.css */
+.contact-us-section {
+    min-height: 100vh; /* Set minimum height of the section to fill the viewport */
+    background-color: #f8f9fa; /* Background color for the section */
+    padding-top: 50px; /* Adjust padding as needed */
+    margin-bottom: 60px;
+  }
+  
+  .office-info {
+    margin-bottom: 30px; /* Adjust margin as needed */
+  }
+  
+  .google-map {
+    margin-top: 30px; /* Adjust margin as needed */
+  }
+  /* ContactUs.css */
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust spacing between existing content and icons */
+}
+
+.icon-link {
+  margin: 0 20px; /* Adjust spacing between icons */
+}
+
+.social-icon {
+  font-size: 80px; /* Increase icon size */
+  padding: 15px; /* Circular padding */
+  border-radius: 50%; /* Circular shape */
+  background-color: #f0f0f0; /* Background color */
+  color: blue; /* Set icon color to blue */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.social-icon:hover {
+  background-color: #ddd; /* Background color on hover */
+}
+
+
+.contact-btn, .contact-btn:hover{
+  background-color: rgb(56, 104, 177);
+  color: white;
+}

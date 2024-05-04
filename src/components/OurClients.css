@@ -1,0 +1,39 @@
+/* OurClients.css */
+.our-clients-section {
+    background-color: #f0f0f0; /* Background color for the section */
+    color: #333; /* Text color */
+  }
+  
+  .clients-divider {
+    border-top: 1px solid #ccc; /* Divider color */
+    margin-top: 20px; /* Adjust margin as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+
+  
+  
+ 
+  /* .film-reel {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .film-strip {
+    display: inline-block;
+    animation: reel-animation 10s linear infinite;
+  }
+  
+  .client-image {
+    width: 150px;
+    margin: 0 10px;
+  }
+  
+  @keyframes reel-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } */
+  

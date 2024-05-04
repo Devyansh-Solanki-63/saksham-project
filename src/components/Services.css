@@ -1,0 +1,28 @@
+/* Add this CSS to your stylesheets */
+.service-card {
+  height: 100%; /* Set a fixed height for the ServiceCard */
+}
+
+.service-card img.card-image{
+  width: 65px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.service-card .btn{
+  background-color: rgb(56, 104, 177);
+  color: white;
+}
+
+
+
+.service-card {
+  transform: scale(1);
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+
+.service-card:hover{
+  transform: scale(1.05);
+}

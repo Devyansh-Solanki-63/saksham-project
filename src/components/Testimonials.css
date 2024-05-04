@@ -1,0 +1,27 @@
+.testimonials-section {
+    padding: 0 15px;
+    font-family: "Fira Sans", Sans-serif !important;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-card {
+    padding: 20px;
+    min-height: 350px;
+    border: 1px solid gray !important;
+  }
+  
+  .testimonials-section .card .card-text{
+    font-style: italic;
+  }
+  .testimonials-section .card .client{
+    font-weight: 700;
+  }
+  .testimonials-section .card .company{
+    font-weight: 700;
+    color: rgb(56, 104, 177);
+  }
+  .testimonials-section .card img{
+    width: 79px;
+    height: 79px;
+  }
+  

@@ -1,0 +1,27 @@
+/* Dronetraining.css */
+/* Add custom CSS for the Dronetraining page */
+
+.training-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px; /* Add margin between the training-info and training-cards */
+  }
+  
+  .training-description {
+    padding-right: 20px; /* Add padding to the right of the training-description */
+  }
+  
+  .training-image img {
+    width: 200px; /* Set width for the image */
+    height: auto; /* Maintain aspect ratio */
+    padding: 10px; /* Add padding to the image */
+  }
+.training-cards .service-card .btn {
+    display: none; /* Hide the discover button */
+  }
+
+.training-cards .card{
+  margin-bottom: 40px;
+}
+    
